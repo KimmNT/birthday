@@ -1,105 +1,434 @@
-/*
-Error: Undefined mixin 'smâtablet'.
-        on line 154 of D:/WorkingPrj/birthdayhoney/assets/scss/_detail.scss, in `smâtablet'
-        from line 154 of D:/WorkingPrj/birthdayhoney/assets/scss/_detail.scss
-        from line 4 of D:\WorkingPrj\birthdayhoney\assets\scss\index.scss
+@font-face {
+  font-family: Merri;
+  src: url("../fonts/Merriweather-Regular.ttf"); }
+@font-face {
+  font-family: Rubik;
+  src: url("/assets/fonts/Rubik-VariableFont_wght.ttf"); }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
-Backtrace:
-D:/WorkingPrj/birthdayhoney/assets/scss/_detail.scss:154:in `smâtablet'
-D:/WorkingPrj/birthdayhoney/assets/scss/_detail.scss:154
-D:\WorkingPrj\birthdayhoney\assets\scss\index.scss:4
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `with_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:350:in `visit_mixin'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined mixin 'smâtablet'.\A         on line 154 of D:/WorkingPrj/birthdayhoney/assets/scss/_detail.scss, in `smâtablet'\A         from line 154 of D:/WorkingPrj/birthdayhoney/assets/scss/_detail.scss\A         from line 4 of D:\WorkingPrj\birthdayhoney\assets\scss\index.scss"; }
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'Merri'; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style-type: none; }
+
+.navbar .navbar__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0; }
+  .navbar .navbar__content .navbar__logo {
+    width: 5%;
+    transform: scaleX(-1); }
+    @media screen and (max-width: 1090px) {
+      .navbar .navbar__content .navbar__logo {
+        width: 10%; } }
+    .navbar .navbar__content .navbar__logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+  .navbar .navbar__content .navbar__items .item {
+    font-size: 2rem;
+    margin-right: 5rem;
+    color: #434242;
+    font-family: 'Rubik';
+    transition: all ease-in-out 0.3s;
+    width: 100%; }
+    .navbar .navbar__content .navbar__items .item:hover {
+      transition: all ease-in-out 0.3s;
+      color: #D23369;
+      margin-bottom: 2rem; }
+    .navbar .navbar__content .navbar__items .item.active {
+      color: #D23369; }
+
+@font-face {
+  font-family: Merri;
+  src: url("../fonts/Merriweather-Regular.ttf"); }
+@font-face {
+  font-family: Rubik;
+  src: url("/assets/fonts/Rubik-VariableFont_wght.ttf"); }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'Merri'; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style-type: none; }
+
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 8rem 0; }
+  @media screen and (max-width: 768px) {
+    .home {
+      padding: 5rem 0; } }
+  .home .home__potrails {
+    width: 20%;
+    height: 100%;
+    position: relative; }
+    @media screen and (max-width: 768px) {
+      .home .home__potrails {
+        width: 40%; } }
+    .home .home__potrails .image {
+      width: 100%; }
+      .home .home__potrails .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .home .home__potrails .dots {
+      position: absolute;
+      bottom: -40px;
+      left: -40px;
+      z-index: -1; }
+      .home .home__potrails .dots .dot__icon {
+        color: #D23369;
+        opacity: .3;
+        font-size: 1rem;
+        margin: 1rem; }
+    .home .home__potrails .fire {
+      position: absolute;
+      top: 40%;
+      left: -50px;
+      color: #D23369;
+      font-size: 4rem;
+      animation: fire__move 2s infinite forwards; }
+    .home .home__potrails .fireworks {
+      position: absolute;
+      top: 0;
+      right: -50%;
+      width: 50%; }
+      .home .home__potrails .fireworks img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+    .home .home__potrails .crown {
+      position: absolute;
+      top: -5%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      font-size: 5rem;
+      color: #FFBF00;
+      transform: rotate(-10deg); }
+    .home .home__potrails .birthday__cake {
+      position: absolute;
+      bottom: -10px;
+      right: -30%;
+      width: 50%;
+      animation: cake__move 2s forwards infinite;
+      transition: all ease-in-out 0.3s; }
+      .home .home__potrails .birthday__cake img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+  .home .home__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem; }
+    @media screen and (max-width: 768px) {
+      .home .home__content {
+        width: 70%;
+        margin-top: 5rem; } }
+    .home .home__content .birthday__title {
+      color: #D23369;
+      font-size: 3rem; }
+      @media screen and (max-width: 600px) {
+        .home .home__content .birthday__title {
+          font-size: 2rem; } }
+    .home .home__content .birthday__content {
+      font-size: 8rem;
+      color: #000;
+      font-weight: 600; }
+      @media screen and (max-width: 1090px) {
+        .home .home__content .birthday__content {
+          font-size: 6rem; } }
+      @media screen and (max-width: 600px) {
+        .home .home__content .birthday__content {
+          font-size: 4rem; } }
+    .home .home__content .birthday__link {
+      display: flex;
+      align-items: center; }
+      .home .home__content .birthday__link .link__text {
+        color: #000;
+        font-weight: 600;
+        margin-right: 2rem;
+        font-size: 1.6rem; }
+        @media screen and (max-width: 992px) {
+          .home .home__content .birthday__link .link__text {
+            font-size: 1.4rem; } }
+      .home .home__content .birthday__link .icon {
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+        text-align: center;
+        color: #D23369;
+        transition: all ease-in-out 0.3s;
+        position: relative; }
+        .home .home__content .birthday__link .icon::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          z-index: -1;
+          display: block;
+          background: #D23369;
+          width: 0%;
+          height: 100%;
+          transition: all ease-in-out 0.3s; }
+        .home .home__content .birthday__link .icon:hover {
+          transition: all ease-in-out 0.3s;
+          color: #fff; }
+          .home .home__content .birthday__link .icon:hover::before {
+            width: 100%;
+            height: 100%; }
+
+@keyframes fire__move {
+  0% {
+    transform: rotate(-45deg); }
+  50% {
+    transform: rotate(45deg); }
+  100% {
+    transform: rotate(-45deg); } }
+@keyframes cake__move {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(10px); }
+  100% {
+    transform: translateY(0px); } }
+@font-face {
+  font-family: Merri;
+  src: url("../fonts/Merriweather-Regular.ttf"); }
+@font-face {
+  font-family: Rubik;
+  src: url("/assets/fonts/Rubik-VariableFont_wght.ttf"); }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
+
+body {
+  font-family: 'Merri'; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style-type: none; }
+
+.details .detail__content {
+  padding: 7rem 0; }
+  .details .detail__content .detail__item {
+    padding: 7rem 0; }
+    .details .detail__content .detail__item .detail__date {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 3rem;
+      font-size: 2.3rem;
+      font-weight: 600;
+      font-style: italic;
+      margin-bottom: 10rem;
+      color: #243763; }
+    .details .detail__content .detail__item .detail__item-content {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      cursor: pointer;
+      flex-wrap: wrap; }
+      .details .detail__content .detail__item .detail__item-content.switch__item {
+        flex-direction: row-reverse; }
+      .details .detail__content .detail__item .detail__item-content.center {
+        text-align: center; }
+      .details .detail__content .detail__item .detail__item-content .image {
+        width: 20%;
+        transition: all ease-in-out 0.3s; }
+        @media screen and (max-width: 992px) {
+          .details .detail__content .detail__item .detail__item-content .image {
+            width: 30%; } }
+        @media screen and (max-width: 600px) {
+          .details .detail__content .detail__item .detail__item-content .image {
+            width: 80%;
+            margin-bottom: 3rem; } }
+        @media screen and (max-width: 475px) {
+          .details .detail__content .detail__item .detail__item-content .image {
+            width: 100%; } }
+        .details .detail__content .detail__item .detail__item-content .image img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: .5rem; }
+      .details .detail__content .detail__item .detail__item-content .content {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 3.5rem;
+        color: #000;
+        transition: all ease-in-out 0.3s; }
+        @media screen and (max-width: 600px) {
+          .details .detail__content .detail__item .detail__item-content .content {
+            width: 90%; } }
+        .details .detail__content .detail__item .detail__item-content .content .headline {
+          font-size: 4rem;
+          color: #D23369; }
+          @media screen and (max-width: 992px) {
+            .details .detail__content .detail__item .detail__item-content .content .headline {
+              font-size: 3rem; } }
+          @media screen and (max-width: 475px) {
+            .details .detail__content .detail__item .detail__item-content .content .headline {
+              font-size: 2rem; } }
+        .details .detail__content .detail__item .detail__item-content .content .detail {
+          font-size: 1.5rem;
+          line-height: 1.6; }
+          .details .detail__content .detail__item .detail__item-content .content .detail span {
+            font-weight: 600; }
+    .details .detail__content .detail__item .detail__slide {
+      position: relative;
+      padding: 5rem 0; }
+      .details .detail__content .detail__item .detail__slide .slick-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        border: 1px solid #D23369;
+        padding: .5rem;
+        border-radius: .2rem;
+        cursor: pointer;
+        color: #D23369;
+        transition: all ease-in-out 0.3s; }
+        .details .detail__content .detail__item .detail__slide .slick-arrow:hover {
+          transition: all ease-in-out 0.3s;
+          background-color: #D23369;
+          color: #fff; }
+        .details .detail__content .detail__item .detail__slide .slick-arrow.slick-prev {
+          left: -5%; }
+        .details .detail__content .detail__item .detail__slide .slick-arrow.slick-next {
+          right: -5%; }
+      .details .detail__content .detail__item .detail__slide .slide__item {
+        height: 30rem;
+        margin: 0 1rem;
+        padding: 3rem 0; }
+        .details .detail__content .detail__item .detail__slide .slide__item img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+        .details .detail__content .detail__item .detail__slide .slide__item p {
+          text-align: center;
+          font-size: 1.4rem;
+          padding: 1rem 0;
+          font-style: italic;
+          font-weight: 600; }
+          @media screen and (max-width: 1090px) {
+            .details .detail__content .detail__item .detail__slide .slide__item p {
+              font-size: 1.2rem; } }
+      .details .detail__content .detail__item .detail__slide .slick-dots {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        gap: 1rem; }
+        .details .detail__content .detail__item .detail__slide .slick-dots button {
+          padding: .5rem;
+          font-size: 0;
+          border-radius: 50%;
+          background-color: #000;
+          border: none; }
+        .details .detail__content .detail__item .detail__slide .slick-dots .slick-active button {
+          background: #D23369;
+          padding: .7rem; }
+    .details .detail__content .detail__item .totnghiep__img {
+      width: 70%;
+      display: flex;
+      margin: 0 auto;
+      padding: 5rem 0; }
+      @media screen and (max-width: 600px) {
+        .details .detail__content .detail__item .totnghiep__img {
+          width: 100%; } }
+      .details .detail__content .detail__item .totnghiep__img .item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+      .details .detail__content .detail__item .totnghiep__img .item p {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.6rem;
+        padding: 1rem 0;
+        font-style: italic; }
+
+.container {
+  max-width: 1290px !important;
+  margin: 0 auto; }
+
+.totop {
+  position: fixed;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  background-color: #000;
+  border-radius: .2rem;
+  z-index: 999;
+  bottom: -10px;
+  right: 10px;
+  opacity: 0;
+  transition: all ease-in-out 0.3s; }
+  .totop a {
+    color: #fff; }
+  .totop.showUp {
+    transition: all ease-in-out 0.3s;
+    bottom: 10px;
+    right: 10px;
+    opacity: 1; }
+
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 1315 !important;
+    margin: 0 auto; } }
+@media screen and (max-width: 1090px) {
+  .container {
+    max-width: 920px !important;
+    margin: 0 auto; } }
+@media screen and (max-width: 992px) {
+  .container {
+    max-width: 720px !important;
+    margin: 0 auto; } }
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 630px !important;
+    margin: 0 auto; } }
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 500px !important;
+    margin: 0 auto; } }
+@media screen and (max-width: 475px) {
+  .container {
+    max-width: 340px !important;
+    margin: 0 auto; } }
+
+/*# sourceMappingURL=index.css.map */
