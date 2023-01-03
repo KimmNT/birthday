@@ -1,0 +1,35 @@
+.navbar{
+    .navbar__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 0;
+        .navbar__logo{
+            width: 5%;
+            transform: scaleX(-1);
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .navbar__items{
+            .item{
+                font-size: 2rem;
+                margin-right: 5rem;
+                color: $content__color;
+                font-family: 'Rubik';
+                transition: $transition;
+                width: 100%;
+                &:hover{
+                    transition: $transition;
+                    color: $title__color;
+                    margin-bottom: 2rem;
+                }
+                &.active{
+                    color: $title__color;
+                }
+            }
+        }
+    }
+}

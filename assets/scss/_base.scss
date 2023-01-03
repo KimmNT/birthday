@@ -1,0 +1,39 @@
+// COLOR
+$content__color:#434242;
+$content__color-2:#B2B2B2;
+$title__color:#D23369;
+$color__light:#fff;
+// FONT SIZE
+$content__font:1.6rem;
+$title__font:5rem;
+
+//TRANSITION
+$transition: all ease-in-out .3s;
+
+
+@font-face {
+    font-family: Merri;
+    src: url('../fonts/Merriweather-Regular.ttf');
+}
+@font-face {
+    font-family: Rubik;
+    src: url('/assets/fonts/Rubik-VariableFont_wght.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Merri';
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}

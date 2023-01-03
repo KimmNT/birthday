@@ -1,0 +1,153 @@
+@import './base';
+
+.home{
+    // height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8rem 0;
+    .home__potrails{
+        width: 20%;
+        height: 100%;
+        position: relative;
+        .image{
+            width: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .dots{
+            position: absolute;
+            bottom: -40px;
+            left: -40px;
+            z-index: -1;
+            .dot__icon{
+                color: $title__color;
+                opacity: .3;
+                font-size: 1rem;
+                margin: 1rem;
+            }
+        }
+        .fire{
+            position: absolute;
+            top: 40%;
+            left: -50px;
+            color: $title__color;
+            font-size: 4rem;
+            animation: fire__move 2s infinite forwards;
+        }
+        .fireworks{
+            position: absolute;
+            top: 0;
+            right: -50%;
+            width: 50%;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .crown{
+            position: absolute;
+            top: -5%;
+            left: 40%;
+            transform: translate(-50%,-50%);
+            font-size: 5rem;
+            color: #FFBF00;
+            transform: rotate(-10deg);
+        }
+        .birthday__cake{
+            position: absolute;
+            bottom: -10px;
+            right:-30%;
+            width: 50%;
+            animation: cake__move 2s forwards infinite;
+            transition: $transition;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    .home__content{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        .birthday__title{
+            color: $title__color;
+            font-size: 3rem;
+        }
+        .birthday__content{
+            font-size: 8rem;
+            color: #000;
+            font-weight: 600;
+        }
+        .birthday__link{
+            display: flex;
+            align-items: center;
+            .link__text{
+                color: #000;
+                font-weight: 600;
+                margin-right: 2rem;
+                font-size: $content__font;
+            }
+            .icon{
+                width: 3rem;
+                height: 3rem;
+                line-height: 3rem;
+                text-align: center;
+                // background: $title__color;
+                color: $title__color;
+                transition: $transition;
+                position: relative;
+                &::before{
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    z-index: -1;
+                    display: block;
+                    background: $title__color;
+                    width: 0%;
+                    height: 100%;
+                    transition: $transition;
+                }
+                &:hover{
+                    transition: $transition;
+                    color: #fff;
+                    &::before{
+                        width: 100%;
+                        height: 100%;
+                       
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes fire__move {
+    0%{
+        transform: rotate(-45deg);
+    }
+    50%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(-45deg);
+    }
+}
+@keyframes cake__move {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
