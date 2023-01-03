@@ -79,11 +79,18 @@ ul, li {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   padding: 8rem 0; }
+  @media screen and (max-width: 768px) {
+    .home {
+      padding: 5rem 0; } }
   .home .home__potrails {
     width: 20%;
     height: 100%;
     position: relative; }
+    @media screen and (max-width: 768px) {
+      .home .home__potrails {
+        width: 40%; } }
     .home .home__potrails .image {
       width: 100%; }
       .home .home__potrails .image img {
@@ -140,13 +147,26 @@ ul, li {
     display: flex;
     flex-direction: column;
     gap: 5rem; }
+    @media screen and (max-width: 768px) {
+      .home .home__content {
+        width: 70%;
+        margin-top: 5rem; } }
     .home .home__content .birthday__title {
       color: #D23369;
       font-size: 3rem; }
+      @media screen and (max-width: 600px) {
+        .home .home__content .birthday__title {
+          font-size: 2rem; } }
     .home .home__content .birthday__content {
       font-size: 8rem;
       color: #000;
       font-weight: 600; }
+      @media screen and (max-width: 1090px) {
+        .home .home__content .birthday__content {
+          font-size: 6rem; } }
+      @media screen and (max-width: 600px) {
+        .home .home__content .birthday__content {
+          font-size: 4rem; } }
     .home .home__content .birthday__link {
       display: flex;
       align-items: center; }
@@ -155,6 +175,9 @@ ul, li {
         font-weight: 600;
         margin-right: 2rem;
         font-size: 1.6rem; }
+        @media screen and (max-width: 992px) {
+          .home .home__content .birthday__link .link__text {
+            font-size: 1.4rem; } }
       .home .home__content .birthday__link .icon {
         width: 3rem;
         height: 3rem;

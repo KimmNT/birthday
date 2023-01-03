@@ -1,15 +1,23 @@
 @import './base';
+@import './responsive.scss';
 
 .home{
     // height: 80vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding: 8rem 0;
+    @include tablet{
+        padding: 5rem 0;
+    }
     .home__potrails{
         width: 20%;
         height: 100%;
         position: relative;
+        @include tablet{
+            width: 40%;
+        }
         .image{
             width: 100%;
             img{
@@ -77,14 +85,28 @@
         display: flex;
         flex-direction: column;
         gap: 5rem;
+        @include tablet{
+            width: 70%;
+            margin-top: 5rem;
+        }
         .birthday__title{
             color: $title__color;
             font-size: 3rem;
+            @include smallTablet{
+                font-size: 2rem;
+            }
+            
         }
         .birthday__content{
             font-size: 8rem;
             color: #000;
             font-weight: 600;
+            @include ipad{
+                font-size: 6rem;
+            }
+            @include smallTablet{
+                font-size: 4rem;
+            }
         }
         .birthday__link{
             display: flex;
@@ -94,6 +116,9 @@
                 font-weight: 600;
                 margin-right: 2rem;
                 font-size: $content__font;
+                @include mediumIpad{
+                    font-size: 1.4rem;
+                }
             }
             .icon{
                 width: 3rem;
